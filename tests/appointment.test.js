@@ -14,6 +14,7 @@ describe('College Appointment System E2E Test', () => {
   });
 
   // Close server after all tests
+  
   afterAll(async () => {
     await closeServer();
     await new Promise(resolve => setTimeout(resolve, 500)); // Giving server time to close
